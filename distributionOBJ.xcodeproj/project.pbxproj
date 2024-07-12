@@ -11,6 +11,7 @@
 		5443C03E2C214FF300738C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443C03D2C214FF300738C9A /* ContentView.swift */; };
 		5443C0402C214FF400738C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443C03F2C214FF400738C9A /* Assets.xcassets */; };
 		5443C0432C214FF400738C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443C0422C214FF400738C9A /* Preview Assets.xcassets */; };
+		5443C04A2C21516E00738C9A /* distributionOBJController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443C0492C21516E00738C9A /* distributionOBJController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5443C03D2C214FF300738C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5443C03F2C214FF400738C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5443C0422C214FF400738C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5443C0492C21516E00738C9A /* distributionOBJController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distributionOBJController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5443C03B2C214FF300738C9A /* distributionOBJApp.swift */,
 				5443C03D2C214FF300738C9A /* ContentView.swift */,
+				5443C0492C21516E00738C9A /* distributionOBJController.swift */,
 				5443C03F2C214FF400738C9A /* Assets.xcassets */,
 				5443C0412C214FF400738C9A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5443C04A2C21516E00738C9A /* distributionOBJController.swift in Sources */,
 				5443C03E2C214FF300738C9A /* ContentView.swift in Sources */,
 				5443C03C2C214FF300738C9A /* distributionOBJApp.swift in Sources */,
 			);
@@ -287,7 +291,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.cthulhu2010.distributionOBJ;
+				PRODUCT_BUNDLE_IDENTIFIER = distributionOBJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

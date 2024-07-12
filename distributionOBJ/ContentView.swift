@@ -9,16 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        HandInteractionARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
 
-#Preview {
-    ContentView()
+struct HandInteractionARViewContainer: UIViewControllerRepresentable {
+    
+    func makeUIViewController(context: UIViewControllerRepresentableContext<HandInteractionARViewContainer>) -> distributionOBJController {
+
+        let viewController = distributionOBJController()
+        return viewController
+    }
+    
+    func updateUIViewController(_ uiViewController: distributionOBJController, context: UIViewControllerRepresentableContext<HandInteractionARViewContainer>) {
+        //SwiftUIViewが更新された時に呼び出される関数,画面の更新
+    }
+    
+    func makeCoordinator() -> HandInteractionARViewContainer.Coordinator {
+        return Coordinator()
+    }
+    
+    class Coordinator {
+        
+    }
 }
